@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Meu Controle de Medicamentos",
+    "slug": "meu-controle-medicamentos",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#F3F5EE",
+    "android": {
+      "package": "com.medicamentos.controle",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1B4D3E"
+      },
+      "permissions": [
+        "NOTIFICATIONS",
+        "SCHEDULE_EXACT_ALARM",
+        "VIBRATE"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/adaptive-icon.png",
+          "color": "#1B4D3E"
+        }
+      ]
+    ],
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1B4D3E"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4219c717-a3f4-45db-86ae-71bb0da7cfbc"
+      }
+    }
+  }
+}

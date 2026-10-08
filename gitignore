@@ -1,0 +1,25 @@
+# dependências e cache
+node_modules/
+.expo/
+dist/
+web-build/
+
+# builds
+*.apk
+*.aab
+*.jks
+*.keystore
+
+# variáveis e segredos (NUNCA suba chaves secretas)
+.env
+.env.*
+*.pem
+
+# sistema e editor
+.DS_Store
+Thumbs.db
+.vscode/
+npm-debug.log*
+
+# pastas pessoais
+Fotos-Projeto/
